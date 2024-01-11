@@ -9,7 +9,7 @@ export default function Button({ label, theme, onPress }) {
       >
         <Pressable
           style={[styles.button, { backgroundColor: "#fff" }]}
-          onPress={() => alert('You pressed a button.')}
+          /* @info */ onPress={onPress} /* @end */
         >
           <FontAwesome
             name="picture-o"
